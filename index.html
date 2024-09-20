@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="flex">
+        <span class="material-icons">keyboard_arrow_down</span>
+        <p>Now Playing</p>
+        <span class="material-icons">more_horiz</span>
+      </header>
+      <div class="image">
+        <img src="./images/music-1.jpg" alt="" />
+      </div>
+      <div class="title">
+        <h2 class="name-song">Beauz & Jvna - Crazy</h2>
+        <p class="artist">Beauz & Jvna</p>
+      </div>
+       <audio  id="audio" src=""></audio>
+      <div class="progress">
+        <span class="progress-bar"></span>
+      </div>
+      <div class="timer flex">
+        <p class="current">0:00</p>
+        <p class="duration"></p>
+      </div>
+      <div class="controls flex">
+        <span id="repeat-plist" class="material-icons" title="Playlist looped"
+          >repeat</span
+        >
+        <span id="prev" class="material-icons">skip_previous</span>
+        <div class="play-pause">
+          <span class="material-icons play">play_arrow</span>
+        </div>
+        <span id="next" class="material-icons">skip_next</span>
+        <span id="more-music" class="material-icons">queue_music</span>
+      </div>
+      <ul class="list">
+        <header>
+          <p>
+            <span class="material-icons">queue_music</span>
+            <span>Music list</span>
+          </p>
+          <span id="close" class="material-icons">close</span>
+        </header>
+
+        <div class="container">
+            
+        </div>
+      </ul>
+    </div>
+  </body>
+</html>
